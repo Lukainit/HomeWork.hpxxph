@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/images&&style/style.css" />
+    <title>bullshit 3000</title>
+  </head>
+  <body>
+    <div class="container">
+        <!-- <h1 class="logo"> <span class="named__color">Hpx</span>xph </h1> -->
+        <img src="./images&&style/logo.png" class="logo">
+
+        <div class="content">
+            <p> Website is <span class="bullshit__colors"> Under Maintence </span> </p>
+            <h1><span class="bullshit__colors">Nazar</span> - creator</h1>
+
+            <div class="launch-time">
+                <div>
+                    <p>00</p>
+                    <span>Days</span>
+                </div>
+
+                <div>
+                    <p>1</p>
+                    <span>Hours</span>
+                </div>
+
+                <div>
+                    <p>20</p>
+                    <span>Minute</span>
+                </div>
+
+                <div>
+                    <p>00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
+
+
+            <button type="button"> Learn more <img src="./images&&style//triangle.png" class=""> </button>
+        </div>
+
+        <img src="./images&&style//rocket.png" class="rocket">
+
+    </div>
+
+
+    <script>
+
+function myFirstApp (name, age) {
+    alert(`Привет, меня зовут ${name} и это моя первая программа!`);
+
+    function showSkills() {
+        let myskill = [],
+        skills = ['html', 'css', 'js'];
+         let i = 0;
+         do {
+            myskill[i] = skills[i];
+            i++;
+         }
+         while (i < skills.length);
+        alert('Я владею ' + myskill);
+    }
+    showSkills();
+
+    function checkAge() {
+        alert(`Твой возраст ${age}`);
+        if (age >18) {
+            alert('У тебя отличные шансы стать frontend');
+        }   else {
+            alert('Молодец, что так рано начал изучать');
+        }
+    }
+    checkAge();
+
+    function calcPow(num) {
+        num = age * age;
+        return num
+    }
+    console.log(calcPow());  //16
+}
+
+myFirstApp("Nazar", 16);
+       
+
+    </script>
+
+  </body>
+</html>
